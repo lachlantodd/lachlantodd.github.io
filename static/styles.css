@@ -1,0 +1,68 @@
+body {
+    background-image: url("/static/bgTile5.png");
+    background-color: #ffffff;
+    color: steelblue;
+    text-align: center;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: large;
+    overflow-y: scroll;
+}
+
+.bg-dark {
+    background-color: #242424 !important;
+}
+
+.navbar {
+}
+
+.formSection {
+    text-align: left;
+}
+
+.resultBox {
+    background-color: #e8e8e8!important;
+}
+
+.valueBlue {
+    color: steelblue;
+}
+
+.placeholderBlue::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: steelblue;
+    opacity: 1; /* Firefox */
+}
+
+.placeholderBlue:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: steelblue;
+}
+
+.placeholderBlue::-ms-input-placeholder { /* Microsoft Edge */
+    color: steelblue;
+}
+
+.form-control:disabled {
+    background-color: #ffffff;
+}
+
+.result::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: steelblue;
+    opacity: 1; /* Firefox */
+    font-weight: bold;
+    background-color: #ffffff;
+}
+
+.result:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: steelblue;
+    font-weight: bold;
+    background-color: #ffffff;
+}
+
+.result::-ms-input-placeholder { /* Microsoft Edge */
+    color: steelblue;
+    font-weight: bold;
+    background-color: #ffffff;
+}
+
+.resultBorder {
+    border-top: 2px dashed lightgrey;
+}
