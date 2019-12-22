@@ -2960,6 +2960,13 @@
 					} else {
 						if (parseFloat(document.getElementById("subject1Result").value) > 0) {
 							newResult = parseFloat(document.getElementById("subject1Result").value);
+							if (newResult > 100) {
+								newResult = 100;
+								document.getElementById("subject1Result").value
+							} else if (newResult < 0) {
+								newResult = 0;
+								document.getElementById("subject1Result").value	
+							}
 							if (sub1Completed1) {
 								tempResult = (newResult - sub1Result) / missingWeight;
 								tempResult = Math.ceil(tempResult * 10) / 10;
@@ -3355,6 +3362,13 @@
 					} else {
 						if (parseFloat(document.getElementById("subject2Result").value) > 0) {
 							newResult = parseFloat(document.getElementById("subject2Result").value);
+							if (newResult > 100) {
+								newResult = 100;
+								document.getElementById("subject2Result").value
+							} else if (newResult < 0) {
+								newResult = 0;
+								document.getElementById("subject2Result").value	
+							}
 							if (sub2Completed1) {
 								tempResult = (newResult - sub2Result) / missingWeight;
 								tempResult = Math.ceil(tempResult * 10) / 10;
@@ -3752,6 +3766,13 @@
 					} else {
 						if (parseFloat(document.getElementById("subject3Result").value) > 0) {
 							newResult = parseFloat(document.getElementById("subject3Result").value);
+							if (newResult > 100) {
+								newResult = 100;
+								document.getElementById("subject3Result").value
+							} else if (newResult < 0) {
+								newResult = 0;
+								document.getElementById("subject3Result").value	
+							}
 							if (sub3Completed1) {
 								tempResult = (newResult - sub3Result) / missingWeight;
 								tempResult = Math.ceil(tempResult * 10) / 10;
@@ -4150,6 +4171,13 @@
 					} else {
 						if (parseFloat(document.getElementById("subject4Result").value) > 0) {
 							newResult = parseFloat(document.getElementById("subject4Result").value);
+							if (newResult > 100) {
+								newResult = 100;
+								document.getElementById("subject4Result").value
+							} else if (newResult < 0) {
+								newResult = 0;
+								document.getElementById("subject4Result").value	
+							}
 							if (sub4Completed1) {
 								tempResult = (newResult - sub4Result) / missingWeight;
 								tempResult = Math.ceil(tempResult * 10) / 10;
